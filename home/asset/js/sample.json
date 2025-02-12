@@ -1,0 +1,68 @@
+{
+    "orgInfo": {
+        "orgName": "쌍용 강북센터",
+        "cntOfDevices": 6,
+        "devices": [
+            {
+                "devicesn": "제 1 강의실",
+                "deviceName": "제 1 강의실",
+                "tvoc": 0,
+                "co2": 536,
+                "pm_2_5": 14,
+                "pm_10": 20,
+                "temperature": -10,
+                "humidity": 75
+            },
+            {
+                "devicesn": "제 2 강의실",
+                "deviceName": "제 2 강의실",
+                "tvoc": 0,
+                "co2": 400,
+                "pm_2_5": 29,
+                "pm_10": 36,
+                "temperature": -10,
+                "humidity": 75
+            },
+            {
+                "devicesn": "제 3 강의실",
+                "deviceName": "제 3 강의실",
+                "tvoc": 0,
+                "co2": 673,
+                "pm_2_5": 1,
+                "pm_10": 4,
+                "temperature": -10,
+                "humidity": 75
+            },
+            {
+                "devicesn": "제 4 강의실",
+                "deviceName": "제 4 강의실",
+                "tvoc": 0,
+                "co2": 400,
+                "pm_2_5": 75,
+                "pm_10": 90,
+                "temperature": -10,
+                "humidity": 75
+            },
+            {
+                "devicesn": "제 5 강의실",
+                "deviceName": "제 5 강의실",
+                "tvoc": 0,
+                "co2": 402,
+                "pm_2_5": 250,
+                "pm_10": 250,
+                "temperature": -10,
+                "humidity": 75
+            },
+            {
+                "devicesn": "제 6 강의실",
+                "deviceName": "제 6 강의실",
+                "tvoc": 0,
+                "co2": 746,
+                "pm_2_5": 0,
+                "pm_10": 0,
+                "temperature": -10,
+                "humidity": 75
+            }
+        ]
+    }
+}
