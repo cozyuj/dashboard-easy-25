@@ -22,8 +22,8 @@
     <!-- 250204: Sensoring and Information -->
     <div class="container">
         <!-- 2025.02.03:  Naming Group and label company logo -->
-        <div class="d-flex mb-36x">
-            <div class="fs-50x bold">
+        <div class="d-flex mb-20x">
+            <div class="fs-35x bold">
                 <span id="orgName"></span>
             </div>
             <i class="f-logo"></i>
@@ -31,16 +31,16 @@
 
         <!-- 2025.02.03: Writing mention, Timing -->
         <div class="d-flex">
-            <div class="fs-50x">
+            <div class="fs-35x">
                 <span id="mention">실시간 공기질 정화중입니다</span>
             </div>
-            <div class="fs-35x">
+            <div class="fs-20x">
                 <span id="now">2025년 02월 03일 09시</span> <span> 기준</span>
             </div>
         </div>
 
         <!-- 250207: 강의실 마다 실시간 공기질 표기 / 캐러셀 추가 -->
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
             <div class="carousel-inner" id="carouselContent"></div>
             <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

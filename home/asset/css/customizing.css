@@ -15,6 +15,9 @@
 .mb-36x {
     margin-bottom: 36px !important;
 }
+.mb-20x {
+	margin-bottom: 20px !important;
+}
 
 /* 
  * font
@@ -25,7 +28,9 @@
 .fs-35x {
     font-size: 35px;
 }
-
+.fs-20x {
+    font-size: 20px;
+}
 .fs-50x {
     font-size: 50px;
 }
@@ -35,8 +40,8 @@
  */
 .f-logo {
     content: url("../images/logo-ecover.svg");
-    width: 300px;
-    height: 55px;
+    width: 250px;
+    height: 35px;
 }
 .f-left-arrow::before {
     content: url("../images/left-arrow.svg");
@@ -101,7 +106,7 @@
     justify-content: center;
     min-width: 960px;   
     max-width: 1200px; /* 최대 크기 제한 */
-    margin: 70px auto 30px auto;
+    margin: 30px auto 30px auto;
 }
 
 .sensor_box > .sensor_item {
@@ -128,8 +133,8 @@
 .outercircle {
 	display: flex;
 	background-color: #666666;
-	min-width: 200px;
-	min-height: 200px;
+	min-width: 170px;
+	min-height: 170px;
 	border-radius: 50%;
 	float: left;
 	margin: 0 auto 35px auto;
@@ -154,8 +159,8 @@
 .innercircle {
 	margin: auto;
 	background-color: white;
-	min-width: 170px;
-	min-height: 170px;
+	min-width: 140px;
+	min-height: 140px;
 	border-radius: 50%;
 	box-shadow: 0 0 2px rgb(221, 221, 221);
 	display: inline-block;
@@ -173,8 +178,8 @@
 .innercircle.details {
 	margin: auto;
 	background-color: white;
-	min-width: 170px;
-	min-height: 170px;
+	min-width: 140px;
+	min-height: 140px;
 	border-radius: 50%;
 	box-shadow: 0 0 2px rgb(221, 221, 221);
 	/* display: inline-block; */
@@ -187,18 +192,18 @@
 /* 화면 해상도가 1920px보다 큰 경우 배율 증가 */
 @media (min-width: 1920px) {
     .outercircle {
-        width: calc(200px * 1.2); /* 1.2배로 확대 */
-        height: calc(200px * 1.2);
+        width: calc(170px * 1.2); /* 1.2배로 확대 */
+        height: calc(170px * 1.2);
     }
 
     .innercircle {
-        width: calc(170px * 1.2);
-        height: calc(170px * 1.2);
+        width: calc(140px * 1.2);
+        height: calc(140px * 1.2);
     }
 
 	.innercircle.details {
-        width: calc(170px * 1.2);
-        height: calc(170px * 1.2);
+        width: calc(140px * 1.2);
+        height: calc(140px * 1.2);
     }
 	.outercircle > .innercircle > p {
 		font-size: calc(50px * 1.2);
@@ -212,18 +217,18 @@
 /* 화면 해상도가 2560px보다 큰 경우 더 확대 */
 @media (min-width: 2560px) {
     .outercircle {
-        width: calc(200px * 1.5); /* 1.2배로 확대 */
-        height: calc(200px * 1.5);
+        width: calc(170px * 1.5); /* 1.2배로 확대 */
+        height: calc(170px * 1.5);
     }
 
     .innercircle {
-        width: calc(170px * 1.5);
-        height: calc(170px * 1.5);
+        width: calc(140px * 1.5);
+        height: calc(140px * 1.5);
     }
 
 	.innercircle.details {
-        width: calc(170px * 1.5);
-        height: calc(170px * 1.5);
+        width: calc(140px * 1.5);
+        height: calc(140px * 1.5);
     }
 	.outercircle > .innercircle > p {
 		font-size: calc(50px * 1.2);
